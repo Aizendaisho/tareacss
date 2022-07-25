@@ -105,10 +105,14 @@ main{
     justify-content: start;
     align-items: center;
     padding-left: 2rem;
-    gap: 1.5rem;
+    gap: 2rem;
     width: 85%;
     height: 212px;
     background-color: #221897;
+}
+.caja-azul >div{
+    height: 100px;
+    width: 210px;
 }
 .imagendiv{
     width: 82px;
