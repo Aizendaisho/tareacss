@@ -66,6 +66,8 @@ main{
 }
 .contenedor-caja1{
     height: 50%;
+    margin: 1rem;
+    margin-top: 1.5rem;
     
 }
 .contenedor-caja2{
@@ -73,6 +75,8 @@ main{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    margin: 1rem;
+
 }
 
 
