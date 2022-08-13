@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: forestgreen;
+}
+
+
+
+.modaleses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modales{
+    width: 200px;
+    height: 55px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1rem 2rem 0 2rem;
+    border: none;
+}
+.modales:hover{
+    cursor: pointer;
+}
+
+.modal{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-color: beige;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    p{
+        width: 80%;
+    }
+
+}
+
+.hidden {
+    display: none;
+}
